@@ -1,0 +1,114 @@
+
+/* Header */
+.header {
+    display:block;
+    width: 100%;
+    background-color:   #d2a6fb;
+    text-align: center;
+    padding:15px;
+  }
+.inner-img{
+    margin: auto;
+    padding: 3px;
+    max-height: 150px;
+    border: 2px solid #ffffff;
+}
+.name{
+    font-size:23px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.occupation{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+.nav-pills{
+    margin-top:10px;
+}
+.nav-pills li {
+    float:none;
+    display:inline-block;
+    border: 2px solid white !important;
+    border-radius: 100%;
+    margin-right:2px;
+}
+.nav-pills li a:hover{
+    background: none;
+    border-radius: 100%;
+    color:white;
+}
+/* Tab */
+.nav-tabs li{
+    float:none;
+    display:inline-block;
+    zoom: 1;
+}
+.nav-tabs{
+    text-align: center;
+    border-color:transparent;
+}
+.tab-panel {
+    border:1px solid #eee;
+    padding: 3px;
+}
+.tab-line .nav-tabs{
+    border: none;
+    margin: 0px;
+}
+.tab-line li{
+    margin-right: 2px;
+}
+.tab-line .nav-tabs li a {
+    border: 0;
+    margin-right: 0;
+    color: rgb(80, 80, 80);
+}
+.tab-line .nav-tabs li a i {
+    color: #a6a6a6;
+}
+.tab-line .nav-tabs li.open, .tab-line .nav-tabs li:hover {
+    border-bottom: 4px solid #f9d5f8;
+}
+.tab-line .nav-tabs li.open a, .tab-line .nav-tabs li:hover a {
+    border: 0;
+    background: none !important;
+    color: #333333;
+}
+.tab-line .nav-tabs li.open a i, .tab-line .nav-tabs li:hover a i {
+    color: #a6a6a6;
+}
+.tab-line .nav-tabs li.active {
+    border-bottom: 4px solid #d2a6fb;
+    position: relative;
+}
+.tab-line .nav-tabs li.active a {
+    border: 0;
+    color: #333333;
+}
+.tab-line .nav-tabs li.active a i {
+    color: #404040;
+}
+.tab-line .tab-content {
+    margin-top: -3px;
+    background-color: #fff;
+    border: 0;
+    border-top: 1px solid #eee;
+    border-bottom: 0;
+    padding: 15px 0;
+}
+.portlet .tab-line .tab-content {
+    padding-bottom: 0;
+}
+/* About Me */
+.side-img{
+    padding: 3px;
+    max-height: 310px;
+    border: 2px solid #d2a6fb;
+    margin:5px;
+}
+
